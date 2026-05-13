@@ -39,9 +39,9 @@
   .cta-section {
     flex-direction: column;
     gap: 12px;
-    margin-left: 55px;
-    margin-right: 55px;
-    max-width: 100%;
+    margin-left: 35px;
+    margin-right: 35px;
+    max-width: 375px;
     padding: 0 0px;
     text-align: center;
   }
@@ -66,16 +66,18 @@
 }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 375px) {
       .nav-bar {
-    width: 400px;
+    width: 340px;
     height: 22.05px;
     border-radius: 360px;
     margin: 15px auto 0;
   }
 
   .site-header {
-    height: 280px;
+    height: 260px;
+        border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
   }
 
   .menu {
@@ -83,27 +85,27 @@
   }
 
   .menu a {
-    font-size: 10px;
+    font-size: 8px;
         padding: 0px 9px;
         margin-top: 4px;
   }
 
   .menu a.active {
-    font-size: 15px;
+    font-size: 10px;
         padding: 0px 0px;
-        margin-top: 0px;
+        margin-top: 2px;
   }
 
   .header-content {
-    max-width: 400px;
-    font-size: 0.7rem;
-    line-height: 1.4rem;
+    max-width: 350px;
+    font-size: 0.6rem;
+    line-height: 1.2rem;
   }
 
   .cta-text {
-    font-size: 1rem;
-    line-height: 1.2rem;
-    max-width: 400px;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    max-width: 350px;
   }
 
     .cta-button {
