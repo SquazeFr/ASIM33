@@ -146,7 +146,7 @@ line-height: 15px;
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
       .nav-bar {
     width: 350px;
     height: 22.05px;
