@@ -1,0 +1,299 @@
+@media (max-width: 767px) {
+  .site-header {
+    height: 260px;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+  }
+
+  .nav-bar {
+    width: 658px;
+    height: 30px;
+    margin: 20px auto 0;
+  }
+
+  .menu {
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .menu a {
+    font-size: 16px;
+    padding: 4px 8px;
+  }
+
+  .menu a.active {
+    font-size: 20px;
+    margin-top: 0;
+    padding: 6px 12px;
+  }
+
+  .header-content {
+    max-width: 658px;
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+    padding: 0 0px;
+    align-items: flex-start;
+  }
+
+  .cta-section {
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 35px;
+    margin-right: 35px;
+    max-width: 768px;
+    padding: 0 0px;
+    text-align: center;
+  }
+
+  .cta-text {
+
+    font-size: 1rem;
+    line-height: 1.1rem;
+  }
+
+  .cta-button {
+    width: 100%;
+    max-width: 168px;
+    height: 37px;
+    font-size: 0.8rem;
+  }
+
+
+  .menu a.active {
+  color: #AB1C1A !important;
+  margin-top: -5px;
+}
+.divider-section {
+  width: 100%;
+  height: 3px;
+  background-color: #3689bf;
+  margin-top: 45px;
+  border-radius: 999px;
+}
+.section-title {
+color: var(--Bleu-fonc, #14253F);
+font-family: Inter;
+font-size: 29px;
+font-style: normal;
+font-weight: 900;
+line-height: 30px; /* 60% */
+}
+
+
+.about-section {
+  position: absolute;
+  inset: 80px 30px 30px 30px;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  grid-template-rows: auto auto;
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+
+.about-text {
+  grid-column: 1;
+  grid-row: 1;
+  padding-left: 20px;
+  color: #14253f;
+  font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 15px;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+.about-text p {
+  margin: 0 0 18px 0;
+}
+
+.about-text span {
+  color: #ab1c1a;
+}
+
+.about-button {
+  min-height: 37px;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-top: 29px;
+}
+
+
+
+.about-logo {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.about-logo img {
+  width: 100%;
+  height: 55%;
+
+}
+
+
+
+
+}
+
+@media (max-width: 480px) {
+      .nav-bar {
+    width: 350px;
+    height: 22.05px;
+    border-radius: 360px;
+    margin: 15px auto 0;
+  }
+
+  .site-header {
+    height: 260px;
+        border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+  }
+
+  .menu {
+    gap: 2px;
+  }
+
+  .menu a {
+    font-size: 8px;
+        padding: 0px 9px;
+        margin-top: 4px;
+  }
+
+  .menu a.active {
+    font-size: 10px;
+        padding: 0px 0px;
+        margin-top: 2px;
+  }
+
+  .header-content {
+    max-width: 350px;
+    font-size: 0.6rem;
+    line-height: 1.2rem;
+  }
+
+  .cta-text {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    max-width: 350px;
+  }
+
+    .cta-button {
+        font-size: 0.9rem;
+    }
+
+      .cta-section {
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 35px;
+    margin-right: 35px;
+    max-width: 350px;
+    padding: 0 0px;
+    text-align: center;
+  }
+
+  .divider-section {
+  width: 100%;
+  height: 3px;
+  background-color: #3689bf;
+  margin-top: 23px;
+  border-radius: 999px;
+}
+
+  .section-title {
+color: var(--Bleu-fonc, #14253F);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 900;
+line-height: 30px; /* 60% */
+}
+
+.about-section {
+    position: absolute;
+    inset: 40px 20px 30px 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 0px;
+    z-index: 2;
+    box-sizing: border-box;
+  }
+
+  .about-text {
+    grid-column: 1;
+    padding: 0;
+    grid-row: 1;
+    color: #14253f;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.4;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;              /* pour pouvoir centrer le bouton */
+    flex-direction: column;
+    align-items: center;        /* centre horizontalement le contenu */
+    gap: 10px;
+  }
+
+  .about-text p {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+  }
+
+  .about-button {
+    margin: 10px auto 0 auto;   /* centre le bouton */
+    min-height: 37px;
+    border-radius: 30px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .about-logo {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    align-items: flex-start; /* colle le logo au haut du bloc */
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+      margin-top: -90px; 
+  }
+
+  .about-logo img {
+    width: 100%;
+    height: auto;           /* important */
+    margin: 0 ;           /* centre l'image */
+    display: block;
+  }
+    .services-layout {
+    flex-direction: column;
+  }
+
+  .services-right {
+    margin-top: 16px;
+  }
+
+  .service-item {
+    font-size: 0.8rem;
+    padding: 10px 14px;
+  }
+
+  .services-right-content p {
+    font-size: 0.8rem;
+  }
+}
