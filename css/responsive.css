@@ -123,14 +123,6 @@ line-height: 15px;
   margin-top: 29px;
 }
 
-.about-button-zone {
-  grid-column: 1;
-  grid-row: 2;
-  padding: 1px 2px 20px 20px;
-  display: flex;
-  align-items: center;
-}
-
 
 
 .about-logo {
@@ -154,7 +146,7 @@ line-height: 15px;
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 375px) {
       .nav-bar {
     width: 350px;
     height: 22.05px;
@@ -226,4 +218,66 @@ font-style: normal;
 font-weight: 900;
 line-height: 30px; /* 60% */
 }
+
+.about-section {
+    position: absolute;
+    inset: 40px 20px 30px 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 0px;
+    z-index: 2;
+    box-sizing: border-box;
+  }
+
+  .about-text {
+    grid-column: 1;
+    padding: 0;
+    grid-row: 1;
+    color: #14253f;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.4;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;              /* pour pouvoir centrer le bouton */
+    flex-direction: column;
+    align-items: center;        /* centre horizontalement le contenu */
+    gap: 10px;
+  }
+
+  .about-text p {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+  }
+
+  .about-button {
+    margin: 10px auto 0 auto;   /* centre le bouton */
+    min-height: 37px;
+    border-radius: 30px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .about-logo {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    align-items: flex-start; /* colle le logo au haut du bloc */
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+      margin-top: -90px; 
+  }
+
+  .about-logo img {
+    width: 100%;
+    height: auto;           /* important */
+    margin: 0 ;           /* centre l'image */
+    display: block;
+  }
 }
