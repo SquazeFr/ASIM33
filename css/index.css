@@ -247,3 +247,177 @@ line-height: 25px;
   object-fit: contain;
   display: block;
 }
+.third-section {
+  width: 100%;                
+  background-color: #3689bf;  
+  padding: 40px 0;            
+}
+
+.third-section-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-family: Inter;
+
+}
+
+.third-section-content h2 {
+  margin: 0 0 16px 0;
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.third-section-content > p {
+  margin: 0;
+  font-size: 27px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.highlight-red {
+  color: #AB1C1A;
+}
+
+
+
+.services-layout {
+  margin-top: 32px;             /* espace entre ton texte et les blocs */
+  display: flex;
+  gap: 24px;
+  align-items: stretch;         /* colonnes même hauteur [web:29] */
+}
+
+/* Colonne gauche : les 5 boutons */
+.services-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Bouton gauche */
+.service-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  /* texte à gauche, flèche à droite */
+  padding: 12px 16px;
+  border-radius: 24px;
+  margin-top: 12px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 0.2s ease-out, transform 0.15s ease-out;
+}
+
+/* Images de fond état normal */
+.service-item:nth-child(1) {
+  background-image: url("img/btn/fond btn service.png");
+}
+.service-item:nth-child(2) {
+  background-image: url("img/btn/fond btn service.png");
+}
+.service-item:nth-child(3) {
+  background-image: url("img/btn/fond btn service.png");
+}
+.service-item:nth-child(4) {
+  background-image: url("img/btn/fond btn service.png");
+}
+.service-item:nth-child(5) {
+  background-image: url("img/btn/fond btn service.png");
+}
+
+/* Images de fond au hover */
+.service-item:nth-child(1):hover {
+  background-image: url("img/btn/fond btn service hover.png");
+}
+.service-item:nth-child(2):hover {
+  background-image: url("img/btn/fond btn service hover.png");
+}
+.service-item:nth-child(3):hover {
+  background-image: url("img/btn/fond btn service hover.png");
+}
+.service-item:nth-child(4):hover {
+  background-image: url("img/btn/fond btn service hover.png");
+}
+.service-item:nth-child(5):hover {
+  background-image: url("img/btn/fond btn service hover.png");
+}
+
+.service-item:hover {
+  transform: translateY(-2px);
+}
+
+.service-text {
+  text-align: left;
+}
+
+.service-arrow {
+  margin-left: 12px;
+  font-size: 1rem;
+}
+
+/* Colonne droite : rectangle avec image de fond */
+.services-right {
+  flex: 1;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;       /* centre verticalement le contenu */
+  justify-content: center;   /* centre horizontalement */
+
+  /* image de fond du rectangle (à adapter) */
+  background-image: url("img/fond-rectangle-service.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* contenu centré avec fond semi-transparent pour la lisibilité */
+.services-right-content {
+  max-width: 90%;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.services-right-content p {
+  font-family: Inter;
+font-size: 35px;
+font-style: normal;
+font-weight: 900;
+line-height: 37px;
+}
+
+/* bouton de droite, même style que .about-button */
+.services-cta {
+  display: inline-block;
+}
+
+.about-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;  /* centre le texte horizontalement dans le bouton */
+  min-height: 57px;
+  padding: 0 28px;
+  background: #AB1C1A;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 20px;
+  text-align: center;        /* sécurité supplémentaire */
+}
+
+
+

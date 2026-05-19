@@ -280,4 +280,20 @@ line-height: 30px; /* 60% */
     margin: 0 ;           /* centre l'image */
     display: block;
   }
+    .services-layout {
+    flex-direction: column;
+  }
+
+  .services-right {
+    margin-top: 16px;
+  }
+
+  .service-item {
+    font-size: 0.8rem;
+    padding: 10px 14px;
+  }
+
+  .services-right-content p {
+    font-size: 0.8rem;
+  }
 }
