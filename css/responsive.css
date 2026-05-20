@@ -140,10 +140,37 @@ line-height: 15px;
   height: 55%;
 
 }
+.third-section {
+    padding: 30px 0;
+  }
 
+  .third-section-content {
+    padding: 0 16px;
+  }
 
+  .third-section-content h2 {
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+  }
 
+  .third-section-content > p {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+  }
 
+  /* Deux colonnes : on réduit l’écart */
+  .services-layout {
+    gap: 16px;
+  }
+
+  .service-item {
+    font-size: 0.85rem;
+    padding: 10px 14px;
+  }
+
+  .services-right-content p {
+    font-size: 0.85rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -295,5 +322,68 @@ line-height: 30px; /* 60% */
 
   .services-right-content p {
     font-size: 0.8rem;
+  }
+  /* Section bleue */
+  .third-section {
+    padding: 24px 0;
+  }
+
+  .third-section-content {
+    padding: 0 12px;
+  }
+
+  .third-section-content h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+
+  .third-section-content > p {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+  }
+
+  /* 2 colonnes -> pile verticale */
+  .services-layout {
+    flex-direction: column;  /* les colonnes se stackent */
+    gap: 12px;
+  }
+
+  .services-left,
+  .services-right {
+    flex: none;
+    width: 100%;
+  }
+
+  /* boutons de gauche */
+  .service-item {
+    font-size: 0.8rem;
+    padding: 8px 12px;
+    margin-top: 8px;
+  }
+
+  .service-arrow {
+    font-size: 0.9rem;
+  }
+
+  /* rectangle de droite */
+  .services-right {
+    margin-top: 8px;
+  }
+
+  .services-right-content {
+    max-width: 100%;
+    padding: 16px;
+  }
+
+  .services-right-content p {
+    font-size: 0.85rem;
+    line-height: 1.3rem;
+  }
+
+  /* bouton "Découvrir nos services" */
+  .services-cta {
+    font-size: 0.9rem;
+    padding: 0 20px;
+    min-height: 44px;
   }
 }
