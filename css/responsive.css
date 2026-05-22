@@ -171,6 +171,49 @@ line-height: 15px;
   .services-right-content p {
     font-size: 0.85rem;
   }
+
+   .fourth-section-content {
+    padding: 30px 16px;
+  }
+
+  .fourth-section-content h2 {
+    font-size: 1.6rem;
+  }
+
+  .fourth-section-content p {
+    font-size: 0.95rem;
+  }
+
+  .partners-logos {
+    gap: 20px;
+  }
+
+  .partner-logo {
+    flex: 0 1 90px;
+  }
+
+  .partner-logo img {
+    max-height: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  .fourth-section-content {
+    padding: 24px 12px;
+  }
+
+  .fourth-section-content h2 {
+    font-size: 1.4rem;
+  }
+
+  .fourth-section-content p {
+    font-size: 0.85rem;
+  }
+
+  .partners-logos {
+    gap: 16px;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -385,5 +428,90 @@ line-height: 30px; /* 60% */
     font-size: 0.9rem;
     padding: 0 20px;
     min-height: 44px;
+  }
+  .third-section {
+    padding: 26px 0;
+  }
+
+  .third-section-content {
+    padding: 0 14px;
+  }
+
+  .third-section-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .third-section-content > p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+
+  .services-layout {
+    flex-direction: column;  /* les 2 colonnes l'une sous l'autre */
+    gap: 14px;
+  }
+
+  .services-left,
+  .services-right {
+    width: 100%;
+    flex: none;
+  }
+
+  .service-item {
+    font-size: 0.85rem;
+    padding: 9px 12px;
+    margin-top: 8px;
+  }
+
+  .services-right-content {
+    max-width: 100%;
+    padding: 16px;
+  }
+
+  .services-right-content p {
+    font-size: 0.9rem;
+    line-height: 1.35rem;
+  }
+
+  .services-cta {
+    font-size: 0.95rem;
+    min-height: 46px;
+    padding: 0 22px;
+  }
+
+  /* Section 4 : image de fond + logos + CTA */
+  .fourth-section-content {
+    padding: 26px 14px;
+  }
+
+  .fourth-section-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .fourth-section-content p {
+    font-size: 0.9rem;
+    line-height: 1.35rem;
+    margin-bottom: 26px;
+  }
+
+  .partners-logos {
+    gap: 20px;
+    flex-wrap: wrap;     /* 3 logos qui peuvent passer sur 2 lignes si besoin [web:62] */
+  }
+
+  .partner-logo {
+    flex: 0 1 100px;
+  }
+
+  .partner-logo img {
+    max-height: 52px;
+  }
+
+  .partners-cta {
+    font-size: 0.95rem;
+    min-height: 44px;
+    padding: 0 22px;
   }
 }
