@@ -465,7 +465,7 @@ line-height: 37px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+  gap: 64px;
   flex-wrap: wrap; /* pour éviter que ça déborde sur petit écran [web:62] */
   margin-bottom: 24px;
 }
@@ -479,7 +479,7 @@ line-height: 37px;
 
 .partner-logo img {
   max-width: 100%;
-  max-height: 60px;
+  max-height: 200px;
   object-fit: contain;
   display: block;
 }
