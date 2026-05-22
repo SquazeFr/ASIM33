@@ -185,7 +185,7 @@ line-height: 15px;
   }
 
   .partners-logos {
-    gap: 20px;
+    gap: 32px;
   }
 
   .partner-logo {
@@ -193,9 +193,20 @@ line-height: 15px;
   }
 
   .partner-logo img {
-    max-height: 50px;
+    max-height: 150px;
+  }
+
+   .footer-inner {
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+  }
+
+  .footer-col-brand {
+    max-width: 100%;
   }
 }
+
 
 @media (max-width: 375px) {
   .fourth-section-content {
@@ -513,5 +524,15 @@ line-height: 30px; /* 60% */
     font-size: 0.95rem;
     min-height: 44px;
     padding: 0 22px;
+  }
+
+   .footer-bottom-inner {
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+  }
+
+  .footer-separator {
+    display: none;
   }
 }
