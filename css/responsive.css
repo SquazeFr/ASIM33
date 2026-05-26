@@ -224,6 +224,31 @@ line-height: 15px;
   .partners-logos {
     gap: 16px;
   }
+   .legal-main {
+    padding: 30px 0 40px 0;
+  }
+
+  .legal-container {
+    padding: 0 16px;
+  }
+
+  .legal-title {
+    font-size: 1.8rem;
+    margin-bottom: 24px;
+  }
+
+  .legal-block {
+    padding: 16px 18px;
+  }
+
+  .legal-block h2 {
+    font-size: 1.1rem;
+  }
+
+  .legal-block p {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+  }
 
 }
 
@@ -535,4 +560,37 @@ line-height: 30px; /* 60% */
   .footer-separator {
     display: none;
   }
+  .legal-main {
+    padding: 24px 0 32px 0;
+  }
+
+  .legal-container {
+    padding: 0 12px;
+  }
+
+  .legal-title {
+    font-size: 1.6rem;
+  }
+
+  .legal-block {
+    padding: 14px 14px;
+  }
+
+  .legal-block p {
+    font-size: 0.85rem;
+    line-height: 1.3rem;
+  }
+
+  .legal-title {
+    font-size: 1.4rem;
+  }
+
+  .legal-block h2 {
+    font-size: 1rem;
+  }
+
+  .legal-block p {
+    font-size: 0.8rem;
+  
+}
 }

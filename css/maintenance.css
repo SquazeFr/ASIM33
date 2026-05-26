@@ -1,0 +1,134 @@
+/* Page de maintenance ASIM33 */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #14253F;
+}
+
+/* Conteneur plein écran avec image de fond */
+.hold-page {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("img/paterne.png"); /* remplace par ton image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+/* Bloc central */
+.hold-content {
+  text-align: center;
+  max-width: 600px;
+  padding: 32px 28px;
+  border-radius: 20px;
+}
+
+/* Logo */
+.hold-logo {
+  max-width: 180px;
+  height: auto;
+  display: block;
+  margin: 0 auto 16px auto;
+}
+
+/* Titres & textes */
+.hold-content h1 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 0 0 12px 0;
+}
+
+.hold-subtitle {
+  margin: 0 0 24px 0;
+  font-size: 0.95rem;
+  line-height: 1.5rem;
+}
+
+/* Bloc contact */
+.hold-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hold-contact-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.hold-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #AB1C1A;
+  margin-bottom: 2px;
+}
+
+.hold-text {
+  font-size: 0.95rem;
+}
+
+.hold-link {
+  font-size: 0.95rem;
+  color: #14253F;
+  text-decoration: none;
+}
+
+.hold-link:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.hold-footer {
+  margin-top: 16px;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #14253F;
+}
+
+/* ===== Responsive ===== */
+
+@media (max-width: 480px) {
+  .hold-content {
+    width: 100%;
+    padding: 24px 18px;
+  }
+
+  .hold-logo {
+    max-width: 140px;
+    margin-bottom: 12px;
+  }
+
+  .hold-content h1 {
+    font-size: 1.6rem;
+  }
+
+  .hold-subtitle {
+    font-size: 0.85rem;
+  }
+
+  .hold-text,
+  .hold-link {
+    font-size: 0.9rem;
+  }
+}
