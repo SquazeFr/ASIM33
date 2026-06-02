@@ -278,6 +278,9 @@ line-height: 15px;
     font-size: 0.9rem;
     line-height: 1.4rem;
   }
+  .services-grid {
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+  }
 
 }
 
@@ -653,4 +656,7 @@ line-height: 30px; /* 60% */
     font-size: 0.8rem;
   
 }
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
 }

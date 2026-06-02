@@ -824,3 +824,66 @@ line-height: 37px;
 .highlight-red {
   color: #AB1C1A;
 }
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  margin: 40px auto;
+  max-width: 1100px;
+}
+
+.service-card {
+  background-color: #2f8edc; 
+  border-radius: 20px;
+  border: 15px solid #2f8edc;          /* contour bleu clair */
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+/* Zone titre */
+.service-card-title {
+  background-color: #0c2740;
+  border-radius: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 10px 8px;
+  min-height: 48px;                   /* pour aligner les hauteurs si les titres sont longs */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Zone texte (contente la description) */
+.service-card-text {
+  flex: 1;
+  padding: 16px 18px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  background-color: #0c2740;
+  border-radius: 20px 20px 0px 0px;
+}
+
+/* Bouton CTA */
+.service-card-btn {
+  background-color: #AB1C1A;
+  color: #ffffff;
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: 500;
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 0.9rem;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.service-card-btn:hover {
+  background-color: #AB1C1A;
+}
+
