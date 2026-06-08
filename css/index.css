@@ -887,3 +887,68 @@ line-height: 37px;
   background-color: #AB1C1A;
 }
 
+/* Section globale */
+.gallery-section {
+  padding: 40px 16px;
+  background-color: #f5f7fa;
+}
+
+.gallery-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.gallery-section h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+  color: #222;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #ddd;
+  min-height: 180px;
+}
+
+.card-tall {
+  min-height: 380px;
+}
+
+.card-wide {
+  min-height: 180px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.35s ease;
+}
+
+.img-default {
+  opacity: 1;
+}
+
+.img-hover {
+  opacity: 0;
+}
+
+.card:hover .img-default {
+  opacity: 0;
+}
+
+.card:hover .img-hover {
+  opacity: 1;
+}

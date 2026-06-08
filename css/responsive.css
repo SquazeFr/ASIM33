@@ -234,6 +234,15 @@ line-height: 15px;
   .footer-col-brand {
     max-width: 100%;
   }
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .card,
+  .card-tall,
+  .card-wide {
+    min-height: 220px;
+  }
 }
 
 
@@ -282,7 +291,19 @@ line-height: 15px;
     grid-template-columns: repeat(2, minmax(220px, 1fr));
   }
 
+.gallery-grid {
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+  }
+  .gallery-grid {
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+  }
+  
 }
+
+  
+
+
+
 
 @media (max-width: 480px) {
       .nav-bar {
@@ -657,6 +678,9 @@ line-height: 30px; /* 60% */
   
 }
   .services-grid {
+    grid-template-columns: 1fr;
+  }
+    .gallery-grid {
     grid-template-columns: 1fr;
   }
 }
