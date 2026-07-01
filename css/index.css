@@ -1049,3 +1049,30 @@ line-height: 37px;
   color: #fff;
   text-align: center;
 }
+.motto-section {
+  text-align: center;
+  padding: 40px 20px;
+  width: 100%;
+}
+
+
+.motto-section h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #1f2a44; /* bleu foncé */
+  margin-bottom: 10px;
+}
+
+.motto-section p {
+  font-size: 1.5rem;
+  color: #AB1C1A; /* rouge foncé */
+  font-weight: 900;
+}
+.motto-section h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #AB1C1A;
+  margin: 10px auto 0;
+}
