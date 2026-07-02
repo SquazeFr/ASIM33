@@ -1076,3 +1076,39 @@ line-height: 37px;
   background: #AB1C1A;
   margin: 10px auto 0;
 }
+
+
+/* ===== FOURTH SECTION : PARTENAIRES / LOGOS ===== */
+
+.sept-section {
+  width: 100%;
+  min-height: 320px;
+  background-color: #3689bf; /* couleur de fond */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* option : léger overlay sombre ou coloré si besoin */
+.sept-section-overlay {
+  width: 100%;
+  height: 100%;
+}
+
+.sept-section-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+/* h2 similaire à la second-section (section-title) */
+.sept-section-content h2 {
+  margin: 0 0 16px 0;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #ffffff;
+}
